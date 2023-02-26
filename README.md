@@ -1,0 +1,2 @@
+# EncryptApp
+Encrypt files
