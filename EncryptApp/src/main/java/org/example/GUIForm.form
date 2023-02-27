@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.GUIForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <hspacer id="9e6ae">
+        <constraints border-constraint="North"/>
+      </hspacer>
+      <vspacer id="764b8">
+        <constraints border-constraint="West"/>
+      </vspacer>
+      <vspacer id="756ec">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <grid id="2e8d4" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="18f13" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <preferredSize width="500" height="30"/>
+            </properties>
+          </component>
+          <component id="78e44" class="javax.swing.JButton" binding="setFileButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="30"/>
+              <text value="Set File"/>
+            </properties>
+          </component>
+          <hspacer id="ecb5d">
+            <constraints/>
+          </hspacer>
+          <component id="a89f2" class="javax.swing.JButton" binding="EncButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
